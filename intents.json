@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Olá!", "Como você está?", "Tem alguém aí?"],
+      "responses": ["Olá!", "Estou bem, e você?", "Sim, pode falar"]
+    },
+    {
+      "tag": "previsao_tempo",
+      "patterns": ["Qual é a previsão do tempo hoje?", "Vai chover amanhã?", "Como estará o clima esta semana?"],
+      "responses": ["A previsão para hoje é de céu parcialmente nublado, com temperatura máxima de 25°C.", "Sim, há chances de chuva amanhã, traga um guarda-chuva.", "Esta semana teremos temperaturas amenas e sol na maior parte dos dias."]
+    },
+    {
+      "tag": "receitas_culinarias",
+      "patterns": ["Você tem alguma receita de bolo de chocolate?", "Como fazer um guacamole delicioso?", "Qual é a melhor receita de massa fresca?"],
+      "responses": ["Claro! Aqui está a receita do bolo de chocolate: [insira a receita aqui]", "Para fazer um guacamole delicioso, você vai precisar de abacates maduros, tomate, cebola, coentro, limão e sal. Amasse os abacates, misture os ingredientes e está pronto!", "A melhor receita de massa fresca é aquela feita com farinha de trigo, ovos e um toque de azeite. Amasse bem, deixe descansar e abra a massa fina para cozinhar al dente."]
+    }
+  ]
+}
